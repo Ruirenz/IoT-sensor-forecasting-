@@ -1,11 +1,4 @@
 Algorithms considered
-Three forecasting approaches were compared:
-Algorithm	Characteristics	Limitation
-Simple Moving Average (SMA)	Averages a fixed window of past readings	Reacts slowly to changing trends
-Linear Regression	Fits a straight line to historical data	Cannot effectively represent daily warming and cooling patterns
-Exponential Smoothing	Gives greater weight to recent readings	Simple exponential smoothing alone produces a flat forecast
-
-
 Selected algorithm: Holt’s damped exponential smoothing
 
 Holt’s damped exponential smoothing was selected because it considers both the current level and the recent trend of the sensor readings.
